@@ -1,0 +1,462 @@
+:root {
+  --primary-color: white;
+  --secondary-color: black;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+}
+
+.darkmode {
+  --primary-color: #251819;
+  --secondary-color: white;
+}
+
+body {
+  max-width: 1380px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--primary-color);
+}
+
+.container {
+  max-width: 1380px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 156px;
+  padding-left: 300px;
+  margin-bottom: 62px;
+}
+
+.rang {
+  color: #ffffff;
+}
+.hidden {
+  display: none;
+}
+.christmas-logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.christmas {
+  color: #282525;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--secondary-color);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+  color: #282525;
+}
+.link {
+  color: #282525;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: var(--secondary-color);
+}
+.link:hover {
+  color: #dc3845;
+}
+.menu-bar {
+  display: none;
+}
+
+.archa {
+  text-align: start;
+  display: flex;
+  align-items: center;
+  padding-left: 280px;
+  padding-right: 100px;
+  padding-top: 80px;
+  margin-bottom: 100px;
+}
+.MerryChristmas {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 286px;
+  /* padding-top: 120px; */
+}
+
+.title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 140%;
+  color: #282525;
+  margin-bottom: 25px;
+  color: var(--secondary-color);
+}
+
+.text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  color: #5d5656;
+  width: 300px;
+  height: 46px;
+  margin-bottom: 100px;
+}
+
+.get-btn {
+  width: 204px;
+  height: 64px;
+  padding: 20px 56px;
+  border-radius: 64px;
+  color: white;
+  background-color: #dc3845;
+}
+
+.givingpris {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+  margin-bottom: 120px;
+}
+
+.title2 {
+  width: 205px;
+  height: 72px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  color: #000000;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.sovgalar {
+  display: flex;
+  align-items: center;
+  gap: 128px;
+}
+
+.sovga1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sovga {
+  margin-bottom: 12px;
+}
+
+.title3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #282525;
+  margin-bottom: 4px;
+  color: var(--secondary-color);
+}
+
+.text2 {
+  width: 142px;
+  height: 42px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+}
+
+.celebrate {
+  display: flex;
+  align-items: center;
+  gap: 88px;
+  padding-left: 188px;
+  padding-right: 182px;
+  margin-bottom: 100px;
+}
+
+.celebratewith {
+  width: 372px;
+  height: 288px;
+  text-align: start;
+  margin-top: 150px;
+}
+
+.title4 {
+  width: 200px;
+  height: 72px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  /* margin-bottom: 24px; */
+  color: var(--secondary-color);
+}
+
+.matn {
+  width: 300px;
+  height: 96px;
+  color: #5d5656;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* margin-bottom: 40px; */
+}
+
+.send-btn {
+  width: 215px;
+  height: 56px;
+  border-radius: 64px;
+  background-color: #dc3845;
+  color: white;
+}
+
+.narxlar {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+.sharetitle {
+  color: #282525;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  margin-bottom: 100px;
+  color: var(--secondary-color);
+}
+.cards {
+  display: flex;
+  gap: 40px;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-bottom: 40px;
+}
+.card {
+  width: 200px;
+  height: 247px;
+  background-color: #301d1e1a;
+  text-align: start;
+  border-radius: 12px;
+}
+
+.yurakcha {
+  padding-left: 160px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+.gift {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 24px;
+}
+
+.price {
+  padding-left: 24px;
+  color: var(--secondary-color);
+}
+.name {
+  padding-left: 24px;
+  color: var(--secondary-color);
+}
+
+.cards2 {
+  display: flex;
+  gap: 40px;
+  margin-left: 300px;
+}
+
+.newgifts {
+  margin-bottom: 100px;
+}
+
+.newgifts-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  color: #282525;
+  margin-bottom: 100px;
+  color: var(--secondary-color);
+}
+
+.cards3 {
+  display: flex;
+  gap: 54px;
+  margin-left: 250px;
+  margin-right: 231px;
+  margin-bottom: 48px;
+}
+.card2 {
+  width: 230px;
+  height: 278px;
+  background-color: #c4c4c4;
+  border-radius: 12px;
+  background-image: url(../image/Ellipse.png);
+  background-repeat: no-repeat;
+}
+.oyinchoq {
+  padding-top: 16px;
+  margin-bottom: 30px;
+}
+.narxi {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #282525;
+  margin-bottom: 4px;
+  color: var(--secondary-color);
+}
+.chirstmaswreath {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  color: #5d5656;
+}
+
+.btn-heart {
+  margin-left: 194px;
+  margin-bottom: 242px;
+}
+.oyinchoq1 {
+  padding-top: 16px;
+  margin-bottom: 59px;
+}
+
+.message {
+  width: 968px;
+  height: 354px;
+  background-color: #dc3845;
+  border-radius: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 65px;
+  margin-bottom: 300px;
+}
+
+.message-send {
+  width: 255px;
+  height: 264px;
+  text-align: start;
+  margin-left: 152px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.send-tittle {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  margin-bottom: 24px;
+}
+
+.sendtext {
+  width: 264px;
+  height: 55px;
+  border: none;
+  border-radius: 64px;
+  margin-bottom: 13px;
+  padding-left: 30px;
+}
+.btn-send {
+  width: 175px;
+  height: 55px;
+  border-radius: 64px;
+  background-color: #282525;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+}
+.letter {
+  padding-top: 20px;
+  margin-right: 121px;
+}
+.footer {
+  display: flex;
+  gap: 147px;
+  padding-left: 156px;
+}
+
+.matn2 {
+  width: 149px;
+  gap: 44px;
+}
+
+.chirstmas1 {
+  width: 149px;
+  height: 90px;
+  text-align: start;
+  margin-bottom: 44px;
+}
+.qorbobo1 {
+  margin-bottom: 24px;
+  text-align: start;
+}
+.chirstmas-text {
+  color: var(--secondary-color);
+}
+
+.give-text {
+  color: #5d5656;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+}
+.our {
+  text-align: start;
+  color: var(--secondary-color);
+}
+.availble {
+  margin-bottom: 44px;
+  color: var(--secondary-color);
+}
+.ourser {
+  margin-bottom: 24px;
+}
+
+.royxat {
+  margin-bottom: 20px;
+  color: var(--secondary-color);
+}
+
+.ornat {
+  display: flex;
+  flex-direction: column;
+}
+
+.google {
+  width: 100px;
+  height: 30px;
+}
+.appstore {
+  width: 100px;
+  height: 30px;
+}
+
+.footer3 {
+  padding-left: 150px;
+  /* padding-bottom: 100px; */
+}
