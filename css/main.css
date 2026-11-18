@@ -88,6 +88,7 @@ body {
 }
 .menu-bar {
   display: none;
+  color: var(--primary-color);
 }
 
 .archa {
@@ -459,4 +460,192 @@ body {
 .footer3 {
   padding-left: 150px;
   /* padding-bottom: 100px; */
+}
+
+@media (max-width: 1000px) {
+  body {
+    width: 360px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  }
+  .navbar {
+    width: 360px;
+    height: 56px;
+    padding: 0px;
+    margin-bottom: 22px;
+  }
+  .link {
+    display: none;
+  }
+  .menu-bar {
+    display: inline;
+  }
+  .container {
+    width: 360px;
+    /* height: 56px; */
+  }
+
+  .christmas-logo {
+    width: 24px;
+    height: 24px;
+  }
+
+  .christmas {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+  }
+  .archa {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .archarasm {
+    width: 320px;
+    height: 282px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-bottom: 24px; */
+  }
+  .MerryChristmas {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* margin-bottom: 132px; */
+  }
+  .title {
+    margin: 0px;
+    width: 312px;
+    height: 68px;
+    font-size: 24px;
+    margin-left: 24px;
+    margin-bottom: 12px;
+  }
+  .text {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .get-btn {
+    width: 210px;
+    height: 63px;
+    margin-left: 75px;
+  }
+  .text2 {
+    font-size: 20px;
+    line-height: 100%;
+    margin-bottom: 42px;
+  }
+
+  .givingpris {
+    margin-bottom: 0px;
+  }
+
+  .sovgalar {
+    display: flex;
+    gap: 28px;
+    overflow: scroll;
+  }
+
+  .sovga1 {
+  }
+  .ortaqism {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .celebrate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .celebratewith {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .ochoqsovgalar {
+    width: 280px;
+    height: 280px;
+  }
+
+  .narxlar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sharetitle {
+    margin-bottom: 48px;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: nowrap;
+    /* flex-direction: column; */
+    /* overflow-y: scroll; */
+  }
+
+  .cards2 {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .cards3 {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .message {
+    width: 312px;
+    height: 464px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 0px;
+  }
+  .message-send {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .send-tittle {
+    width: 116px;
+    height: 60px;
+    font-size: 20px;
+  }
+  .letter {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px;
+    gap: 0px;
+  }
 }
